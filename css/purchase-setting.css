@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+body {
+    background-color: var(--gray-white);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--gray-white);
+}
+
+:root {
+    --gray-white: #F0F1F2;
+    --white: #FFFFFF;
+    --black: #000000;
+    --gray-black: #DDDDDD;
+    --light-black: #212523;
+    --light-black-op: #21252350;
+    --main-green: #157343;
+    --main-light: #37A000;
+    --light-orange: #FD7E14;
+    --light-orange-bg: #fd7d1422;
+    --green: #008000;
+    --light-green: #e9f6ec;
+    --red: #FF0000;
+    --light-red: #fbeaec;
+    /* === FONTS SIZE FOR HEADING === */
+    --primary-head: 22px;
+    --secondary-head: 1.125rem;
+    --secondary: 1rem;
+    --primary-para: 0.825rem;
+}
+
+/* === PARENT CONTAINER === */
+.sh-parent-cotainer {
+    width: 100%;
+}
+
+/* === CHILD CONTAINER === */
+.sh-child-container {
+    margin: 20px;
+    background-color: var(--white);
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.2);
+}
+
+/* === TOP ITEMS === */
+.sh-top-items {
+    padding: 20px;
+    ;
+}
+
+.sh-top-items p {
+    font-size: var(--secondary-head);
+    font-weight: 600;
+}
+
+/* === SELL INPUT SECTION === */
+.sh-sell-input-section {
+    width: 100%;
+    gap: 30px;
+    padding: 10px 20px 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dsd-container {
+    width: 100%;
+    line-height: 2em;
+    font-size: var(--secondary);
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.sh-dsd-input {
+    display: flex;
+    align-items: center;
+}
+
+.sh-dsd-input input {
+    width: 100%;
+    padding: 7px 38px;
+    border-radius: 3px;
+    border: 1px solid var(--light-black-op);
+}
+
+.sh-dsd-input input:focus {
+    outline: none;
+}
+
+.sh-percent {
+    margin-top: 32px;
+    padding: 1.5px 10px;
+    border-radius: 3px 0px 0px 3px;
+    background-color: var(--light-black-op);
+    display: flex;
+    position: absolute;
+}
+
+.sh-selector-input {
+    width: 100%;
+    line-height: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.sh-selector-input option {
+    width: 100%;
+}
+
+.sh-selector-input select {
+    width: 100%;
+    padding: 7px 10px;
+    border-radius: 3px;
+    border: 1px solid var(--light-black-op);
+}
+
+.sh-selector-input select:focus {
+    outline: none;
+}
+
+/* === ADVANCE DROP DOWN ITEMS === */
+.advance-section {
+    padding: 20px;
+}
+
+.sh-advanced-setting h2 {
+    font-size: var(--secondary-head);
+    color: black;
+    cursor: pointer;
+}
+
+.sh-advance-item-conatainer {
+    margin-top: 20px;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sh-item-button {
+    width: 100%;
+    line-height: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.sh-item-button a{
+    width: 30%;
+    padding: 3px 10px;
+    border-radius: 100px;
+    color: var(--white);
+    background-color: var(--main-green);
+}
+/* === SALES TERMS & CONDITIONS === */
+.sh-sales-terms-conditions{
+    width: 100%;
+    padding: 20px;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sh-text-area{
+    width: 100%;
+    line-height: 2em;
+    display: flex;
+    flex-direction: column;
+}
+.sh-text-area textarea{
+    height: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--light-black-op);
+}
+.sh-text-area textarea:focus{
+    outline: none;
+}
+.sh-text-area label{
+    font-size: var(--secondary);
+    font-weight: 600;
+}
+.sh-save-btn{
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.sh-save-btn a{
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: var(--secondary-head);
+    color: var(--white);
+    background-color: var(--main-green);
+}

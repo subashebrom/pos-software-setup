@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- === css link === -->
+    <link rel="stylesheet" href="css/currency.css">
+    <title>Currencies</title>
+</head>
+
+<body>
+    <!-- === PARENT CONTAINER === -->
+    <div class="sh-parent-container">
+        <!-- === CHILD CONTAINER === -->
+        <div class="sh-child-container">
+            <!-- === TOP ITEMS === -->
+            <div class="sh-top-items">
+                <p>Currency List</p>
+                <a href="add-currency.html"><i class="fa-solid fa-user"></i>Add Currency</a>
+            </div>
+            <hr>
+            <!-- === SHOW AND SEARCH CONTAINER === -->
+            <div class="show-search-container">
+                <!-- === SHOW === -->
+                <div class="sh-showing-container">
+                    <p>Show</p>
+                    <select name="" id="">
+                        <option value="10" name="show">10</option>
+                        <option value="20" name="show">20</option>
+                        <option value="30" name="show">30</option>
+                        <option value="40" name="show">40</option>
+                        <option value="50" name="show">50</option>
+                    </select>
+                    <p>entries</p>
+                </div>
+                <!-- === SEARCH === -->
+                <div class="sh-search-container">
+                    <label for="text">Search:</label>
+                    <input type="search" name="" id="">
+                </div>
+            </div>
+            <!-- === TABLE DETAILS === -->
+            <div class="sh-table-details-container">
+                <!-- === TABLE === -->
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="sl">SL</th>
+                            <th>Title</th>
+                            <th>Symbol</th>
+                            <th>Country</th>
+                            <th>Status</th>
+                            <th class="sh-action">Action</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <td class="sh-text-center">SL</td>
+                            <td class="sh-text-center">Title</td>
+                            <td class="sh-text-center">Symbol</td>
+                            <td class="sh-text-center">Country</td>
+                            <td class="sh-text-center">Status</td>
+                            <td class="sh-text-center">Action</td>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        <tr>
+                            <td class="sh-text-center">#1</td>
+                            <td class="sh-text-center">BDT</td>
+                            <td class="sh-text-center">BDT</td>
+                            <td class="sh-text-center">Bangladesh</td>
+                            <td class="sh-acitivity">
+                                <p>Active</p>
+                            </td>
+                            <td class="sh-button-center">
+                                <div class="sh-editor"><i class="fa-solid fa-pen-to-square"></i></div>
+                                <div class="sh-delete"><i class="fa-solid fa-trash"></i></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="sh-text-center">#2</td>
+                            <td class="sh-text-center">KD</td>
+                            <td class="sh-text-center">KD</td>
+                            <td class="sh-text-center">Kuwait</td>
+                            <td class="sh-acitivity">
+                                <p>Active</p>
+                            </td>
+                            <td class="sh-button-center">
+                                <div class="sh-editor"><i class="fa-solid fa-pen-to-square"></i></div>
+                                <div class="sh-delete"><i class="fa-solid fa-trash"></i></div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+             <!-- === SLIDE PAGES === -->
+             <div class="sh-slider-pages">
+                <p>Showing 2 to 2 of 2 entries</p>
+                <div class="sh-slide-right-item">
+                    <a href="#">Previous</a>
+                    <p>1</p>
+                    <a href="#">Next</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- === FONT AWSOME LINK === -->
+    <script src="https://kit.fontawesome.com/aab4d24b6f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- === css link === -->
+    <link rel="stylesheet" href="css/vat-setting.css">
+    <title>Vat Settings</title>
+</head>
+
+<body>
+    <!-- === PARENT CONTAINER === -->
+    <div class="sh-parent-cotainer">
+        <!-- === CHILD CONTAINER === -->
+        <div class="sh-child-container">
+            <!-- === TOP ITEMS === -->
+            <div class="sh-top-items">
+                <p>VAT Settings</p>
+            </div>
+            <hr>
+            <!-- === TABLE SECTION === -->
+            <div class="sh-table-section">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="vat-name">VAT Name</th>
+                            <th class="vat-number">VAT Number</th>
+                            <th class="vat-number">VAT Percentage</th>
+                            <th class="text-box-one">Status</th>
+                            <th class="text-box-two">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="vat-name"><input type="text" name="" placeholder="VAT Name" id=""></td>
+                            <td class="vat-number"><input type="text" placeholder="6126818247" name="" id=""></td>
+                            <td class="vat-number"><input type="text" placeholder="VAT Percentage" name="" id=""></td>
+                            <td class="text-end-xmark"><i class="fa-solid fa-xmark"></i></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td class="text-end" colspan="4"><i class="fa-solid fa-plus"></i></td>
+                            <td></td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div class="sh-save-btn">
+                <a href="#">Save</a>
+            </div>
+        </div>
+        <!-- === VAT GROUP SECTION === -->
+        <div class="sh-vat-group-section">
+            <div class="sh-vat-top">
+                <p>VAT Group</p>
+                <a href="#"><i class="fa-solid fa-circle-plus"></i>Add New VAT Group</a>
+            </div>
+            <hr><!-- === SHOW AND SEARCH CONTAINER === -->
+            <div class="sh-show-and-search-container">
+                <div class="sh-show-container">
+                    <p>Show</p>
+                    <select name="" id="">
+                        <option value="number" name="show">10</option>
+                        <option value="number" name="show">20</option>
+                        <option value="number" name="show">30</option>
+                        <option value="number" name="show">40</option>
+                        <option value="number" name="show">50</option>
+                        <option value="number" name="show">100</option>
+                    </select>
+                    <p>Entries</p>
+                </div>
+                <!-- === SEARCH === -->
+                <div class="sh-search-container">
+                    <p>Search:</p>
+                    <input type="search" placeholder="" name="" id="">
+                </div>
+            </div>
+            <!-- === MANAGE SALE DETAILS SECTION === -->
+            <div class="manage-sale-details-section">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>SL</th>
+                            <th>Sales No</th>
+                            <th>Payment Method</th>
+                            <th>Total Ammount (BDT)</th>
+                            <th>Date</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                </table>
+                <!-- === EMPTY SECTION === -->
+                <div class="empty-section">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <p>No data available in table</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- === SLIDE PAGES === -->
+            <div class="sh-slider-pages">
+                <p>Showing 2 to 2 of 2 entries</p>
+                <div class="sh-slide-right-item">
+                    <a href="#">Previous</a>
+                    <p>1</p>
+                    <a href="#">Next</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- === FONT AWSOME LINK === -->
+    <script src="https://kit.fontawesome.com/aab4d24b6f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

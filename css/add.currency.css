@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+body {
+    background-color: var(--gray-white);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--gray-white);
+}
+
+:root {
+    --gray-white: #F0F1F2;
+    --white: #FFFFFF;
+    --black: #000000;
+    --gray-black: #DDDDDD;
+    --light-black: #212523;
+    --light-black-op: #21252350;
+    --main-green: #157343;
+    --main-light: #37A000;
+    --light-orange: #FD7E14;
+    --light-orange-bg: #fd7d1422;
+    --green: #008000;
+    --light-green: #e9f6ec;
+    --red: #FF0000;
+    --light-red: #fbeaec;
+    /* === FONTS SIZE FOR HEADING === */
+    --primary-head: 22px;
+    --secondary-head: 1.125rem;
+    --secondary: 1rem;
+    --primary-para: 0.825rem;
+}
+/* === PARENT CONTAINER === */
+.sh-parent-container {
+    width: 100%;
+}
+
+/* === CHILD CONTAINER === */
+.sh-child-container {
+    margin: 20px;
+    background-color: var(--white);
+    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+/* === TOP ITEMS === */
+.sh-top-items {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sh-top-items p {
+    font-size: var(--secondary-head);
+}
+
+.sh-top-items a {
+    padding: 6px 8px;
+    border-radius: 5px;
+    color: var(--white);
+    font-size: var(--secondary);
+    background-color: var(--main-green);
+}
+
+.sh-top-items i {
+    margin-right: 5px;
+}
+/* === INPUT FORMS === */
+.sh-input-fomrs{
+    width: 100%;
+    padding: 20px;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sh-input{
+    width: 100%;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+}
+.sh-input label{
+    font-size: var(--secondary);
+}
+.sh-input input{
+    width: 100%;
+    padding: 4px 8px;
+    border-radius: 3px;
+    border: 1px solid var(--light-black-op);
+    font-size: var(--secondary);
+}
+.sh-input input:focus{
+    outline: none;
+}
+.sh-input select{
+    width: 100%;
+    padding: 4px 8px;
+    border-radius: 3px;
+    border: 1px solid var(--light-black-op);
+    font-size: var(--secondary);
+}
+.sh-input select:focus{
+    outline: none;
+}
+/* === STATUS === */
+.sh-status-container{
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+.sh-active-check-box{
+    display: flex;
+    gap: 5px;
+}
+/* === SUBMIT BUTTON === */
+.sh-submit-button{
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.sh-submit-button a{
+    padding: 6px 10px;
+    border-radius: 5px;
+    color: var(--white);
+    background-color: var(--main-green);
+}
